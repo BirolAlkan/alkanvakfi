@@ -72,10 +72,7 @@ const Footer = () => {
                 className="text-center p-3"
                 style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
             >
-                © {new Date().getFullYear()} Copyright:
-                <a className="text-white" href="https://mdbootstrap.com/">
-                    MDBootstrap.com
-                </a>
+                © {new Date().getFullYear()} Copyright by BirolALKAN
             </div>
             {/* Copyright */}
         </footer>

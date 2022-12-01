@@ -1,28 +1,26 @@
 import './App.css';
-import Card from './components/Card';
 import Footer from './components/Footer';
-import Main from './components/Main';
 import Navbar from './components/Navbar';
-import AlkanVakfı from './pages/AlkanVakfı';
-import Hakkımızda from './pages/Hakkımızda';
-import Faaliyetlerimiz from './pages/Faaliyetlerimiz';
-import Haberler from './pages/Haberler';
-import {Routes, Route } from "react-router-dom";
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import {Routes, Route, BrowserRouter } from "react-router-dom";
 
 
 function App() {
   return (
     <div>
-      <Navbar/>
-      <Routes>
-        <Route path="/" element={<AlkanVakfı />} />
-        <Route path="/Hakkımızda" element={<Hakkımızda />} />
-        <Route path="/Faaliyetlerimiz" element={<Faaliyetlerimiz />} />
-        <Route path="/Haberler" element={<Haberler />} /> 
-      </Routes>
-      <Main/>
-      <Card/>
-      <Footer/>
+      
+      <BrowserRouter>
+        <Navbar/>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Contact" element={<Contact />} /> 
+        </Routes>
+        <Footer/>
+      </BrowserRouter>
+      
     </div>
   );
 }
