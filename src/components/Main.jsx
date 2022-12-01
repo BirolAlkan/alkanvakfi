@@ -2,14 +2,14 @@ import React from 'react'
 
 const Main = () => {
     return (
-        <div
+                <div
             id="carouselExampleControls"
             className="carousel slide"
             data-bs-ride="carousel"
         >
             <div className="carousel-inner">
-                <div className="carousel-item active">
-                    <img src="https://images.unsplash.com/photo-1527960669566-f882ba85a4c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YXdlc29tZSUyMHBpY3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" className="d-block w-100" alt="..." />
+                <div className="carousel-item active" >
+                    <img width="400px" src="https://www.ktb.gov.tr/Resim/16426,ataturk-06jpg.png?0" className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item">
                     <img src="https://images.unsplash.com/photo-1527960669566-f882ba85a4c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YXdlc29tZSUyMHBpY3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" className="d-block w-100" alt="..." />

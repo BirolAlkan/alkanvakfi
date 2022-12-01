@@ -8,6 +8,24 @@ const Footer = () => {
             <div className="container p-4 pb-0">
                 {/* Section: Social media */}
                 <section className="mb-4">
+                    {/* Linkedin */}
+                    <a
+                        className="btn text-white btn-floating m-1"
+                        style={{ backgroundColor: "#0082ca" }}
+                        href="linkedin.com/in/birol-alkan"
+                        role="button"
+                    >
+                        <i className="fab fa-linkedin-in" />
+                    </a>
+                    {/* Github */}
+                    <a
+                        className="btn text-white btn-floating m-1"
+                        style={{ backgroundColor: "#333333" }}
+                        href="github.com/BirolAlkan"
+                        role="button"
+                    >
+                        <i className="fab fa-github" />
+                    </a>
                     {/* Facebook */}
                     <a
                         className="btn text-white btn-floating m-1"
@@ -44,24 +62,7 @@ const Footer = () => {
                     >
                         <i className="fab fa-instagram" />
                     </a>
-                    {/* Linkedin */}
-                    <a
-                        className="btn text-white btn-floating m-1"
-                        style={{ backgroundColor: "#0082ca" }}
-                        href="#!"
-                        role="button"
-                    >
-                        <i className="fab fa-linkedin-in" />
-                    </a>
-                    {/* Github */}
-                    <a
-                        className="btn text-white btn-floating m-1"
-                        style={{ backgroundColor: "#333333" }}
-                        href="#!"
-                        role="button"
-                    >
-                        <i className="fab fa-github" />
-                    </a>
+
                 </section>
                 {/* Section: Social media */}
             </div>
