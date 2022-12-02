@@ -4,31 +4,24 @@ const Contact = () => {
   return (
     <div>
       <section id="contact" className="container bg-light p-3">
-  <h2 className="display-6 text-danger">CONTACT</h2>
+  <h2 className="display-6 text-danger text-center mb-4">CONTACT</h2>
   <article id="form">
-    <p>
-    👋 I'm Birol, a frontend developer<br/>
-     I’m currently working on JavaScript | React | Redux | Material UI | Bootstrap | SASS | HTML | CSS | Python | SQL | GİT<br/>
-     I am happy to teach you what I knowand eager to learn what you will offer<br/>
-     I’m currently learning everything 😄<br/>
-     Slowly and steadily, I'm trying to be better than yesterday😉<br/>
-     I'm open to job offers
-    </p>
+    
     <div className="row g-4">
       <div className="col-md-4">
         <i className="fas fa-phone fa-2x text-danger" />
         <h4>Telephone</h4>
-        <a href="tel:+90234556565">+95434694426</a>
+        <a href="tel:+905434694426">+95434694426</a>
       </div>
       <div className="col-md-4">
         <i className="fab fa-whatsapp fa-3x text-danger" />
         <h4>Whatsapp</h4>
-        <a href="https://wa.me/+90234556565">+905434694426</a>
+        <a href="https://wa.me/+905434694426">+905434694426</a>
       </div>
       <div className="col-md-4">
         <i className="fas fa-envelope fa-2x text-danger" />
         <h4>email</h4>
-        <a href="mailto:info@clarusway.com">birolalkan93@gmail.com</a>
+        <a href="mailto:birolalkan93@gmail.com">birolalkan93@gmail.com</a>
       </div>
     </div>
     <form className="row g-3 mt-4">
@@ -78,15 +71,14 @@ const Contact = () => {
     </form>
   </article>
   <article id="location" className="mt-4">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192698.5521395148!2d28.871754336967353!3d41.005236293762124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7040068086b%3A0xe1ccfe98bc01b0d0!2zxLBzdGFuYnVs!5e0!3m2!1sen!2str!4v1663183693965!5m2!1sen!2str"
-      width="100%"
+    <iframe src="https://www.google.com/maps/d/embed?mid=1_KOxE5PPw1SbB2fgWXYsgbATrYc&hl=tr&ehbc=2E312F" width="100%" height="480" allowFullScreen="true"></iframe>
+      {/* width="100%"
       height={450}
       style={{ border: 0 }}
       allowFullScreen="true"
       loading="lazy"
-      referrerPolicy="no-referrer-when-downgrade"
-    />
+      referrerPolicy="no-referrer-when-downgrade" */}
+    
   </article>
 </section>
 

@@ -12,8 +12,9 @@ const Footer = () => {
                     <a
                         className="btn text-white btn-floating m-1"
                         style={{ backgroundColor: "#0082ca" }}
-                        href="linkedin.com/in/birol-alkan"
+                        href="https://www.linkedin.com/in/birol-alkan/"
                         role="button"
+                        target="_blank"
                     >
                         <i className="fab fa-linkedin-in" />
                     </a>
@@ -21,8 +22,9 @@ const Footer = () => {
                     <a
                         className="btn text-white btn-floating m-1"
                         style={{ backgroundColor: "#333333" }}
-                        href="github.com/BirolAlkan"
+                        href="https://github.com/BirolAlkan"
                         role="button"
+                        target="_blank"
                     >
                         <i className="fab fa-github" />
                     </a>
@@ -30,8 +32,9 @@ const Footer = () => {
                     <a
                         className="btn text-white btn-floating m-1"
                         style={{ backgroundColor: "#3b5998" }}
-                        href="#!"
+                        href="https://tr-tr.facebook.com/"
                         role="button"
+                        target="_blank"
                     >
                         <i className="fab fa-facebook-f" />
                     </a>
@@ -39,8 +42,9 @@ const Footer = () => {
                     <a
                         className="btn text-white btn-floating m-1"
                         style={{ backgroundColor: "#55acee" }}
-                        href="#!"
+                        href="https://twitter.com/"
                         role="button"
+                        target="_blank"
                     >
                         <i className="fab fa-twitter" />
                     </a>
@@ -49,8 +53,9 @@ const Footer = () => {
                     <a
                         className="btn text-white btn-floating m-1"
                         style={{ backgroundColor: "#ac2bac" }}
-                        href="#!"
+                        href="https://www.instagram.com/"
                         role="button"
+                        target="_blank"
                     >
                         <i className="fab fa-instagram" />
                     </a>

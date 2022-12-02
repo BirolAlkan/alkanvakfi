@@ -29,15 +29,23 @@ function Nav() {
             </li>
 
             <li className="nav-item">
-              <Link to="/about" className="nav-link" aria-current="page">
+              <NavLink
+              style={({ isActive }) => ({
+                color: isActive && "red",
+              })}
+              to="/about" className="nav-link" aria-current="page">
                 About
-              </Link>
+              </NavLink>
             </li>
             
             <li className="nav-item">
-              <Link to="/contact" className="nav-link" aria-current="page">
+              <NavLink 
+              style={({ isActive }) => ({
+                color: isActive && "red",
+              })}
+              to="/contact" className="nav-link" aria-current="page">
                 Contact
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
