@@ -44,15 +44,7 @@ const Footer = () => {
                     >
                         <i className="fab fa-twitter" />
                     </a>
-                    {/* Google */}
-                    <a
-                        className="btn text-white btn-floating m-1"
-                        style={{ backgroundColor: "#dd4b39" }}
-                        href="#!"
-                        role="button"
-                    >
-                        <i className="fab fa-google" />
-                    </a>
+                
                     {/* Instagram */}
                     <a
                         className="btn text-white btn-floating m-1"

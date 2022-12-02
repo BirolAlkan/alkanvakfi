@@ -1,4 +1,3 @@
-import React from 'react'
 
 const Main = () => {
     return (
@@ -31,7 +30,7 @@ const Main = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="./img/izmir.jpg" className="d-block w-100" alt="img1" />
+            <img src="../img/izmir.jpg" className="d-block w-100" alt="img1" />
             <div className="carousel-caption d-none d-md-block">
               <h5>Popular Education</h5>
               <p>
@@ -45,7 +44,7 @@ const Main = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <img src="./img/istanbul.jpg" className="d-block w-100" alt="img2" />
+            <img src="../img/istanbul.jpg" className="d-block w-100" alt="img2" />
             <div className="carousel-caption d-none d-md-block">
               <h5>Sucessful Future</h5>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -56,7 +55,7 @@ const Main = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <img src="./img/ankara.jpg" className="d-block w-100" alt="img3" />
+            <img src="../img/ankara.jpg" className="d-block w-100" alt="img3" />
             <div className="carousel-caption d-none d-md-block">
               <h5>Dream Job</h5>
               <p>Lorem ipsum dolor sit amet consectetur.</p>

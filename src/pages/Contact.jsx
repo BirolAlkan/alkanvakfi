@@ -7,25 +7,28 @@ const Contact = () => {
   <h2 className="display-6 text-danger">CONTACT</h2>
   <article id="form">
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-      sit nulla numquam sunt esse aliquam? Quae, delectus! Saepe, explicabo
-      dolor!
+    👋 I'm Birol, a frontend developer<br/>
+     I’m currently working on JavaScript | React | Redux | Material UI | Bootstrap | SASS | HTML | CSS | Python | SQL | GİT<br/>
+     I am happy to teach you what I knowand eager to learn what you will offer<br/>
+     I’m currently learning everything 😄<br/>
+     Slowly and steadily, I'm trying to be better than yesterday😉<br/>
+     I'm open to job offers
     </p>
     <div className="row g-4">
       <div className="col-md-4">
         <i className="fas fa-phone fa-2x text-danger" />
         <h4>Telephone</h4>
-        <a href="tel:+90234556565">+90234556565</a>
+        <a href="tel:+90234556565">+95434694426</a>
       </div>
       <div className="col-md-4">
         <i className="fab fa-whatsapp fa-3x text-danger" />
         <h4>Whatsapp</h4>
-        <a href="https://wa.me/+90234556565">+90234556565</a>
+        <a href="https://wa.me/+90234556565">+905434694426</a>
       </div>
       <div className="col-md-4">
         <i className="fas fa-envelope fa-2x text-danger" />
         <h4>email</h4>
-        <a href="mailto:info@clarusway.com">info@clarusway</a>
+        <a href="mailto:info@clarusway.com">birolalkan93@gmail.com</a>
       </div>
     </div>
     <form className="row g-3 mt-4">
